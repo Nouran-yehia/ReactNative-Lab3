@@ -1,6 +1,8 @@
 import React from 'react';
-import * as RootNavigator from './navigation/first'
+import RootNavigator from './navigations'
+
+
 
 const App = () => <RootNavigator />;
 
-export default App()
+export default App;

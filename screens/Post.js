@@ -29,14 +29,23 @@ useEffect(()=>{
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: 'white',
+      backgroundColor: 'gray',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding:10
     },
     image: {
-        width:"250px",
-        height: "250px",
+        width:250,
+        height: 250,
+        alignSelf: 'center',
+        marginTop: 20,
+        marginBottom: 15
         },
     title: {
         fontWeight: 'bold',
+        fontSize:25,
+        marginTop: 7,
+        marginBottom:1,
 
     }
 
